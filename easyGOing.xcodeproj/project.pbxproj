@@ -43,27 +43,27 @@
 		2590F09014F2BF010096457D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2590F09214F2BF010096457D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2590F09414F2BF010096457D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2590F09814F2BF010096457D /* easyGOing-Info.plist */ = {isa = PBXFileReference; path = "easyGOing-Info.plist"; sourceTree = "<group>"; };
+		2590F09814F2BF010096457D /* easyGOing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "easyGOing-Info.plist"; sourceTree = "<group>"; };
 		2590F09A14F2BF010096457D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2590F09C14F2BF010096457D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2590F09E14F2BF010096457D /* easyGOing-Prefix.pch */ = {isa = PBXFileReference; path = "easyGOing-Prefix.pch"; sourceTree = "<group>"; };
-		2590F09F14F2BF010096457D /* EgoAppDelegate.h */ = {isa = PBXFileReference; path = EgoAppDelegate.h; sourceTree = "<group>"; };
+		2590F09E14F2BF010096457D /* easyGOing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "easyGOing-Prefix.pch"; sourceTree = "<group>"; };
+		2590F09F14F2BF010096457D /* EgoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EgoAppDelegate.h; sourceTree = "<group>"; };
 		2590F0A014F2BF010096457D /* EgoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgoAppDelegate.m; sourceTree = "<group>"; };
 		2590F0A314F2BF010096457D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		2590F0A614F2BF010096457D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		2590F0A814F2BF010096457D /* EgoFirstViewController.h */ = {isa = PBXFileReference; path = EgoFirstViewController.h; sourceTree = "<group>"; };
+		2590F0A814F2BF010096457D /* EgoFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EgoFirstViewController.h; sourceTree = "<group>"; };
 		2590F0A914F2BF010096457D /* EgoFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgoFirstViewController.m; sourceTree = "<group>"; };
 		2590F0AB14F2BF010096457D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		2590F0AD14F2BF010096457D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		2590F0AF14F2BF010096457D /* EgoSecondViewController.h */ = {isa = PBXFileReference; path = EgoSecondViewController.h; sourceTree = "<group>"; };
+		2590F0AF14F2BF010096457D /* EgoSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EgoSecondViewController.h; sourceTree = "<group>"; };
 		2590F0B014F2BF010096457D /* EgoSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgoSecondViewController.m; sourceTree = "<group>"; };
 		2590F0B214F2BF010096457D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		2590F0B414F2BF010096457D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		2590F0BB14F2BF010096457D /* easyGOingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyGOingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2590F0BC14F2BF010096457D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2590F0C414F2BF010096457D /* easyGOingTests-Info.plist */ = {isa = PBXFileReference; path = "easyGOingTests-Info.plist"; sourceTree = "<group>"; };
+		2590F0C414F2BF010096457D /* easyGOingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "easyGOingTests-Info.plist"; sourceTree = "<group>"; };
 		2590F0C614F2BF010096457D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2590F0C814F2BF010096457D /* easyGOingTests.h */ = {isa = PBXFileReference; path = easyGOingTests.h; sourceTree = "<group>"; };
+		2590F0C814F2BF010096457D /* easyGOingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = easyGOingTests.h; sourceTree = "<group>"; };
 		2590F0C914F2BF010096457D /* easyGOingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = easyGOingTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
