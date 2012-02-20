@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2590F09114F2BF010096457D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2590F09014F2BF010096457D /* UIKit.framework */; };
+		2590F09314F2BF010096457D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2590F09214F2BF010096457D /* Foundation.framework */; };
+		2590F09514F2BF010096457D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2590F09414F2BF010096457D /* CoreGraphics.framework */; };
+		2590F09B14F2BF010096457D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2590F09914F2BF010096457D /* InfoPlist.strings */; };
+		2590F09D14F2BF010096457D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F09C14F2BF010096457D /* main.m */; };
+		2590F0A114F2BF010096457D /* EgoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F0A014F2BF010096457D /* EgoAppDelegate.m */; };
+		2590F0A414F2BF010096457D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2590F0A214F2BF010096457D /* MainStoryboard_iPhone.storyboard */; };
+		2590F0A714F2BF010096457D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2590F0A514F2BF010096457D /* MainStoryboard_iPad.storyboard */; };
+		2590F0AA14F2BF010096457D /* EgoFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F0A914F2BF010096457D /* EgoFirstViewController.m */; };
+		2590F0AC14F2BF010096457D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2590F0AB14F2BF010096457D /* first.png */; };
+		2590F0AE14F2BF010096457D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2590F0AD14F2BF010096457D /* first@2x.png */; };
+		2590F0B114F2BF010096457D /* EgoSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F0B014F2BF010096457D /* EgoSecondViewController.m */; };
+		2590F0B314F2BF010096457D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2590F0B214F2BF010096457D /* second.png */; };
+		2590F0B514F2BF010096457D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2590F0B414F2BF010096457D /* second@2x.png */; };
+		2590F0BD14F2BF010096457D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2590F0BC14F2BF010096457D /* SenTestingKit.framework */; };
+		2590F0BE14F2BF010096457D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2590F09014F2BF010096457D /* UIKit.framework */; };
+		2590F0BF14F2BF010096457D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2590F09214F2BF010096457D /* Foundation.framework */; };
+		2590F0C714F2BF010096457D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2590F0C514F2BF010096457D /* InfoPlist.strings */; };
+		2590F0CA14F2BF010096457D /* easyGOingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2590F0C914F2BF010096457D /* easyGOingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2590F0C014F2BF010096457D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2590F08314F2BF000096457D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2590F08B14F2BF000096457D;
+			remoteInfo = easyGOing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2590F08C14F2BF000096457D /* easyGOing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyGOing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2590F09014F2BF010096457D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2590F09214F2BF010096457D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2590F09414F2BF010096457D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2590F09814F2BF010096457D /* easyGOing-Info.plist */ = {isa = PBXFileReference; path = "easyGOing-Info.plist"; sourceTree = "<group>"; };
+		2590F09A14F2BF010096457D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2590F09C14F2BF010096457D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2590F09E14F2BF010096457D /* easyGOing-Prefix.pch */ = {isa = PBXFileReference; path = "easyGOing-Prefix.pch"; sourceTree = "<group>"; };
+		2590F09F14F2BF010096457D /* EgoAppDelegate.h */ = {isa = PBXFileReference; path = EgoAppDelegate.h; sourceTree = "<group>"; };
+		2590F0A014F2BF010096457D /* EgoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgoAppDelegate.m; sourceTree = "<group>"; };
+		2590F0A314F2BF010096457D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2590F0A614F2BF010096457D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2590F0A814F2BF010096457D /* EgoFirstViewController.h */ = {isa = PBXFileReference; path = EgoFirstViewController.h; sourceTree = "<group>"; };
+		2590F0A914F2BF010096457D /* EgoFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgoFirstViewController.m; sourceTree = "<group>"; };
+		2590F0AB14F2BF010096457D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		2590F0AD14F2BF010096457D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		2590F0AF14F2BF010096457D /* EgoSecondViewController.h */ = {isa = PBXFileReference; path = EgoSecondViewController.h; sourceTree = "<group>"; };
+		2590F0B014F2BF010096457D /* EgoSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EgoSecondViewController.m; sourceTree = "<group>"; };
+		2590F0B214F2BF010096457D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		2590F0B414F2BF010096457D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		2590F0BB14F2BF010096457D /* easyGOingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyGOingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2590F0BC14F2BF010096457D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2590F0C414F2BF010096457D /* easyGOingTests-Info.plist */ = {isa = PBXFileReference; path = "easyGOingTests-Info.plist"; sourceTree = "<group>"; };
+		2590F0C614F2BF010096457D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2590F0C814F2BF010096457D /* easyGOingTests.h */ = {isa = PBXFileReference; path = easyGOingTests.h; sourceTree = "<group>"; };
+		2590F0C914F2BF010096457D /* easyGOingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = easyGOingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2590F08914F2BF000096457D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F09114F2BF010096457D /* UIKit.framework in Frameworks */,
+				2590F09314F2BF010096457D /* Foundation.framework in Frameworks */,
+				2590F09514F2BF010096457D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2590F0B714F2BF010096457D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F0BD14F2BF010096457D /* SenTestingKit.framework in Frameworks */,
+				2590F0BE14F2BF010096457D /* UIKit.framework in Frameworks */,
+				2590F0BF14F2BF010096457D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2590F08114F2BF000096457D = {
+			isa = PBXGroup;
+			children = (
+				2590F09614F2BF010096457D /* easyGOing */,
+				2590F0C214F2BF010096457D /* easyGOingTests */,
+				2590F08F14F2BF000096457D /* Frameworks */,
+				2590F08D14F2BF000096457D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2590F08D14F2BF000096457D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2590F08C14F2BF000096457D /* easyGOing.app */,
+				2590F0BB14F2BF010096457D /* easyGOingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2590F08F14F2BF000096457D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2590F09014F2BF010096457D /* UIKit.framework */,
+				2590F09214F2BF010096457D /* Foundation.framework */,
+				2590F09414F2BF010096457D /* CoreGraphics.framework */,
+				2590F0BC14F2BF010096457D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2590F09614F2BF010096457D /* easyGOing */ = {
+			isa = PBXGroup;
+			children = (
+				2590F09F14F2BF010096457D /* EgoAppDelegate.h */,
+				2590F0A014F2BF010096457D /* EgoAppDelegate.m */,
+				2590F0A214F2BF010096457D /* MainStoryboard_iPhone.storyboard */,
+				2590F0A514F2BF010096457D /* MainStoryboard_iPad.storyboard */,
+				2590F0A814F2BF010096457D /* EgoFirstViewController.h */,
+				2590F0A914F2BF010096457D /* EgoFirstViewController.m */,
+				2590F0AB14F2BF010096457D /* first.png */,
+				2590F0AD14F2BF010096457D /* first@2x.png */,
+				2590F0AF14F2BF010096457D /* EgoSecondViewController.h */,
+				2590F0B014F2BF010096457D /* EgoSecondViewController.m */,
+				2590F0B214F2BF010096457D /* second.png */,
+				2590F0B414F2BF010096457D /* second@2x.png */,
+				2590F09714F2BF010096457D /* Supporting Files */,
+			);
+			path = easyGOing;
+			sourceTree = "<group>";
+		};
+		2590F09714F2BF010096457D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2590F09814F2BF010096457D /* easyGOing-Info.plist */,
+				2590F09914F2BF010096457D /* InfoPlist.strings */,
+				2590F09C14F2BF010096457D /* main.m */,
+				2590F09E14F2BF010096457D /* easyGOing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2590F0C214F2BF010096457D /* easyGOingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2590F0C814F2BF010096457D /* easyGOingTests.h */,
+				2590F0C914F2BF010096457D /* easyGOingTests.m */,
+				2590F0C314F2BF010096457D /* Supporting Files */,
+			);
+			path = easyGOingTests;
+			sourceTree = "<group>";
+		};
+		2590F0C314F2BF010096457D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2590F0C414F2BF010096457D /* easyGOingTests-Info.plist */,
+				2590F0C514F2BF010096457D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2590F08B14F2BF000096457D /* easyGOing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2590F0CD14F2BF010096457D /* Build configuration list for PBXNativeTarget "easyGOing" */;
+			buildPhases = (
+				2590F08814F2BF000096457D /* Sources */,
+				2590F08914F2BF000096457D /* Frameworks */,
+				2590F08A14F2BF000096457D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easyGOing;
+			productName = easyGOing;
+			productReference = 2590F08C14F2BF000096457D /* easyGOing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2590F0BA14F2BF010096457D /* easyGOingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2590F0D014F2BF010096457D /* Build configuration list for PBXNativeTarget "easyGOingTests" */;
+			buildPhases = (
+				2590F0B614F2BF010096457D /* Sources */,
+				2590F0B714F2BF010096457D /* Frameworks */,
+				2590F0B814F2BF010096457D /* Resources */,
+				2590F0B914F2BF010096457D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2590F0C114F2BF010096457D /* PBXTargetDependency */,
+			);
+			name = easyGOingTests;
+			productName = easyGOingTests;
+			productReference = 2590F0BB14F2BF010096457D /* easyGOingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2590F08314F2BF000096457D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Ego;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Technische Universität Dortmund";
+			};
+			buildConfigurationList = 2590F08614F2BF000096457D /* Build configuration list for PBXProject "easyGOing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2590F08114F2BF000096457D;
+			productRefGroup = 2590F08D14F2BF000096457D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2590F08B14F2BF000096457D /* easyGOing */,
+				2590F0BA14F2BF010096457D /* easyGOingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2590F08A14F2BF000096457D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F09B14F2BF010096457D /* InfoPlist.strings in Resources */,
+				2590F0A414F2BF010096457D /* MainStoryboard_iPhone.storyboard in Resources */,
+				2590F0A714F2BF010096457D /* MainStoryboard_iPad.storyboard in Resources */,
+				2590F0AC14F2BF010096457D /* first.png in Resources */,
+				2590F0AE14F2BF010096457D /* first@2x.png in Resources */,
+				2590F0B314F2BF010096457D /* second.png in Resources */,
+				2590F0B514F2BF010096457D /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2590F0B814F2BF010096457D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F0C714F2BF010096457D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2590F0B914F2BF010096457D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2590F08814F2BF000096457D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F09D14F2BF010096457D /* main.m in Sources */,
+				2590F0A114F2BF010096457D /* EgoAppDelegate.m in Sources */,
+				2590F0AA14F2BF010096457D /* EgoFirstViewController.m in Sources */,
+				2590F0B114F2BF010096457D /* EgoSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2590F0B614F2BF010096457D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F0CA14F2BF010096457D /* easyGOingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2590F0C114F2BF010096457D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2590F08B14F2BF000096457D /* easyGOing */;
+			targetProxy = 2590F0C014F2BF010096457D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2590F09914F2BF010096457D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2590F09A14F2BF010096457D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2590F0A214F2BF010096457D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2590F0A314F2BF010096457D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2590F0A514F2BF010096457D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2590F0A614F2BF010096457D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2590F0C514F2BF010096457D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2590F0C614F2BF010096457D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2590F0CB14F2BF010096457D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2590F0CC14F2BF010096457D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2590F0CE14F2BF010096457D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easyGOing/easyGOing-Prefix.pch";
+				INFOPLIST_FILE = "easyGOing/easyGOing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2590F0CF14F2BF010096457D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easyGOing/easyGOing-Prefix.pch";
+				INFOPLIST_FILE = "easyGOing/easyGOing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2590F0D114F2BF010096457D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/easyGOing.app/easyGOing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easyGOing/easyGOing-Prefix.pch";
+				INFOPLIST_FILE = "easyGOingTests/easyGOingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2590F0D214F2BF010096457D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/easyGOing.app/easyGOing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easyGOing/easyGOing-Prefix.pch";
+				INFOPLIST_FILE = "easyGOingTests/easyGOingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2590F08614F2BF000096457D /* Build configuration list for PBXProject "easyGOing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2590F0CB14F2BF010096457D /* Debug */,
+				2590F0CC14F2BF010096457D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2590F0CD14F2BF010096457D /* Build configuration list for PBXNativeTarget "easyGOing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2590F0CE14F2BF010096457D /* Debug */,
+				2590F0CF14F2BF010096457D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2590F0D014F2BF010096457D /* Build configuration list for PBXNativeTarget "easyGOingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2590F0D114F2BF010096457D /* Debug */,
+				2590F0D214F2BF010096457D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2590F08314F2BF000096457D /* Project object */;
+}
